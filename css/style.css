@@ -1,6 +1,47 @@
+/* NAVBAR */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #148f77;
+}
+
+#ms--navbar {
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #1abc9c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: #1abc9c;
+}
+
+.ms--bg-dark {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.ms--bg-light {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms--bg-white {
+    background-color: white;
+    color: #2c3e50;
+}
+/* START CONTAINER */
 .start {
     background-color: #1abc9c;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 .start p {
     padding-bottom: 60px;
@@ -11,15 +52,19 @@
     height: auto;
 }
 
-.contact {
-    background-color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.start-bootstrap {
+    color: #1f7550;
 }
+
 h1, h2 {
     color: white;
 }
 
+p {
+    color: white;
+}
+
+/* PORTFOLIO CONTAINER */
 .portfolio {
     background-color: white;
     padding-bottom: 60px;
@@ -34,18 +79,8 @@ h1, h2 {
     color: #2c3e50;
 }
 
-.contact .ms--star span {
-    color: #2c3e50;
-    padding-bottom: 30px;
-}
-
 .portfolio .ms--star::before,
 .portfolio .ms--star::after {
-    background-color: #2c3e50;
-}
-
-.contact .ms--star::before,
-.contact .ms--star::after {
     background-color: #2c3e50;
 }
 
@@ -56,10 +91,7 @@ h1, h2 {
     padding-bottom: 30px;
 }
 
-p {
-    color: white;
-}
-
+/* ABOUT CONTAINER */
 .about {
     background-color: #1abc9c;
     padding-bottom: 60px;
@@ -83,16 +115,6 @@ p {
     color: white;
 }
 
-.contact h2 {
-    color: black;
-}
-
-.form-control {
-    border: 0;
-    margin-left: 140px;
-    font-size: 15px;
-}
-
 #name {
     padding-bottom: 40px;
 }
@@ -109,6 +131,27 @@ p {
     padding-bottom: 80px;
 }
 
+/* CONTACT CONTAINER */
+.contact {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact h2 {
+    color: black;
+}
+
+.contact .ms--star span {
+    color: #2c3e50;
+    padding-bottom: 30px;
+}
+
+.contact .ms--star::before,
+.contact .ms--star::after {
+    background-color: #2c3e50;
+}
+
 .bt-send {
     background-color: #1abc9c;
     border: 0;
@@ -118,6 +161,12 @@ p {
     margin-left: 140px;
 }
 
+.form-control {
+    border: 0;
+    margin-left: 140px;
+    font-size: 15px;
+}
+/* FOOTER */
 footer {
     background-color: #2c3e50;
     color: white;
@@ -138,10 +187,6 @@ footer button {
     font-size: 20px;
 }
 
-.start-bootstrap {
-    color: #1f7550;
-}
-
 .copyright {
     color: white;
     background-color: #1a252f;
@@ -154,6 +199,7 @@ footer button {
     margin-bottom: 0px;
 }
 
+/* ms--star */
 .ms--star::before,
 .ms--star::after {
     content: '';
@@ -175,6 +221,7 @@ footer button {
     color: white;
 }
 
+/* Media Queries */
 @media screen and (min-width: 992px) {
     .about p {
         padding-left: 0px;
